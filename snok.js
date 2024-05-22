@@ -63,7 +63,7 @@ function game_mode() {
       Start_game.style.visibility = "visible"
       map.style.visibility = "hidden"
       status = "off"
-      Start_game.children[0].textContent = "游戏暂停中"
+      Start_game.children[0].textContent = "lpysb"
       Start_game.children[0].dataset.text = "..."
       clearInterval(game_status)                    //暂停游戏
   }
