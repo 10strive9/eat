@@ -195,7 +195,7 @@ function game_over(){   //游戏结束
   status = "off"
   key_status = true
   game_over_val = 0
-  Start_game.children[0].textContent = "Game over ！！！"
+  Start_game.children[0].textContent = "lpysb666 Game over ！！！"
   Start_game.children[0].dataset.text = ""
   clearInterval(game_status)                 
 }
